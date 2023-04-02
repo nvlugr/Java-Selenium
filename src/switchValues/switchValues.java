@@ -8,7 +8,7 @@ public class switchValues {
 		int a=10;
 		int b=4; 
 		
-		 a = a + b;
+             a = a + b;
 	     b = a - b;
 	     a = a - b;
 		
@@ -17,14 +17,6 @@ public class switchValues {
    
      System.out.print("b is "+ b);
      
-    
-     
-
-
-
-
-
-
-	}
+    }
 
 }
