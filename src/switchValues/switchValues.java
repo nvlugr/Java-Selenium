@@ -12,7 +12,7 @@ public class switchValues {
 	     b = a - b;
 	     a = a - b;
 		
-     System.out.print("a is " + a+ " ");
+     System.out.print("a is " + a+ " MUNCAT");
      
    
      System.out.print("b is "+ b);
