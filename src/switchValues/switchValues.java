@@ -8,15 +8,23 @@ public class switchValues {
 		int a=10;
 		int b=4; 
 		
-         a = a + b;
+		 a = a + b;
 	     b = a - b;
 	     a = a - b;
 		
-     System.out.print("a is " + a);
+     System.out.print("a is " + a+ " ");
      
    
-     System.out.print(" b is "+ b);
+     System.out.print("b is "+ b);
      
-    }
+    
+     
+
+
+
+
+
+
+	}
 
 }
