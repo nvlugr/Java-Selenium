@@ -3,8 +3,8 @@ package loopsinJava;
 public class loops {
 
 	public static void main(String[] args) {
-		// While Loop - Print numbers from 1 to 10	
-			int i=1;
+		/* // While Loop - Print numbers from 1 to 10	
+			    int i=1;
 				while(i<=10) {
 						System.out.println(i);
 							i++;
@@ -30,8 +30,75 @@ public class loops {
 						c=c+2;
 						System.out.println(c);	
 					}
-					
 				}
 	
+			//Decrement in loop
+				int q=10;
+				while(q>=1) {
+					System.out.println(q);
+					q--;
+				}
+			//do...while loop (down->up)
+				//Write from 1 to 10
+				
+				int m=1;
+				do
+				{
+				System.out.println(m);	
+				m++;	
+				} while(m<10);
+				
+				//Write from 10 to 1
+				
+				int n=10;
+				do
+				{
+				System.out.println(n);	
+				n--;	
+				} while(n>=1);
+			
+				//While vs do...while
+				//While loops logs nothing
+				
+				int l=10;
+				while(l<=5) {
+					System.out.println(l);
+					l++;
+				}
+				
+				//Do...while loop logs at least one time without checking the condition
+				
+				do {
+					
+					System.out.println("here is a do...while " + l);
+					l++;
+					
+				}while(l<=5);
+				
+				
+				
+			//For Loop
+				
+				for(int k=0;k<=10;k++) 
+				{
+					System.out.println("This is k= "+k);
+				}	
+				*/
+				
+				//Print out even numbers
+				for(int q=0; q<=10; q++)
+				{
+					if(q%2!=0) {
+						
+						System.out.println("This is q= "+q);
+						
+					}
+						
+				} 
+		
+		
+		
+		
+		
 		}
 	}
