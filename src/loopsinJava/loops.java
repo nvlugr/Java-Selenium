@@ -3,7 +3,7 @@ package loopsinJava;
 public class loops {
 
 	public static void main(String[] args) {
-		/* // While Loop - Print numbers from 1 to 10	
+		 // While Loop - Print numbers from 1 to 10	
 			    int i=1;
 				while(i<=10) {
 						System.out.println(i);
@@ -83,14 +83,14 @@ public class loops {
 				{
 					System.out.println("This is k= "+k);
 				}	
-				*/
+				
 				
 				//Print out even numbers
-				for(int q=0; q<=10; q++)
+				for(int y=0; y<=10; y++)
 				{
-					if(q%2!=0) {
+					if(y%2!=0) {
 						
-						System.out.println("This is q= "+q);
+						System.out.println("This is y= "+y);
 						
 					}
 						
