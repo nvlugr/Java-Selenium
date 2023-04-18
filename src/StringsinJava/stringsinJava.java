@@ -1,7 +1,12 @@
 package StringsinJava;
 
+import java.util.Arrays;
+
 public class stringsinJava {
 
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// String Syntax
 		
@@ -53,13 +58,13 @@ public class stringsinJava {
 		
 		
 		//substring() 
-		//Delimiter cannot be : * $ ^ . ? + - 
+		
 
 		String z="welcome";
 		System.out.println(z.substring(3,7));
 		
 		//split()
-
+		//Delimiter cannot be : * $ ^ . ? + - 
 		String spl="abc@gmail.com";
 		String p[]= spl.split("@");
 		System.out.println(p[0]);
@@ -84,34 +89,118 @@ public class stringsinJava {
 		System.out.println(w==y);   //returns false because it looks for the objects themselves
 		System.out.println(w.equals(y)); //returns true because it looks for the values of the objects
 		
+		/*Assignments
+		------------
+		1) Reverse a string
+
+		s="abc"
+		reverse string: cba
+
+		Ref link: https://www.youtube.com/watch?v=1_hhywLAO5o&list=PLUDwpEzHYYLtgkXK6YaZ4I2XcsjMqIaEa&index=3
+
+
+
+		2) Check string is palidrome or not
+		madam
+		madam  - palindrome
+
+		Ref Link: https://www.youtube.com/watch?v=8BlUi4-4N4E&list=PLUDwpEzHYYLtgkXK6YaZ4I2XcsjMqIaEa&index=5
+
+
+		3) Check string presence in array
+
+		4) swap 2 strings
+
+		x="john"
+		y="david"; 
+*/
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	//Reverse a string
+	 String str="abcdef";
+	 String reverse="";
+	 int l= (str.length())-1;
+	 System.out.println(l);
+
+	 for(int va=l; va>=0 ;va--) {
+		 reverse+= str.charAt(va);
+		 System.out.println(reverse);
+		 
+	 }
+	 
+	 
+	 //2) Check string is palidrome or not
+		//madam
+		//madam  - palindrome
+	 String pal1="madam";
+	 String pal2="";
+	 int sl=(pal1.length())-1;
+	 System.out.println(sl);
+	 for(int vr=sl;vr>=0;vr--){
+		 pal2+= pal1.charAt(vr);
+		 
+	 }  
+	 if(pal1.equals(pal2)) {
+		 System.out.println(pal2+ " is a palindrome number "); 
+	 }
+	 
+	 
+	 
+	 
+	 //3) Check string presence in array
+	 String[] arr= {"munir","neval","leyli","muco"};
+	 String nev="neval";
+	 String c="no";
+	 int e =(arr.length)-1;
+	 System.out.println(e);	
+	 for(int i=0;i<=e;i++) {
+	 	if(arr[i].equals(nev)) {
+	 		c="yes";
+	 	}   
+} System.out.println(c);
+
+
+	//4) swap 2 strings
+	//x="john"
+	//y="david";
+
+	String one="munir";
+	String two="ley";
+	String con = one+two;
+	int l1=one.length();
+	int l2=two.length();
+	one = con.substring(l1, con.length());
+	two = con.substring(0, l1);
+
+	String mun = "ley";
+	System.out.println(two);
+
+
+
+
+
+	
+	 
+	 
+	
+	 
+	 
+	 
+	 
+	
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	
+	
 	}
 
 }
