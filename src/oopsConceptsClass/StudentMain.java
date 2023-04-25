@@ -20,7 +20,7 @@ public class StudentMain {
 		
 		//Approach 3
 		
-		 Student stu=new Student (102,"John",'A');
+		 Student stu = new Student (102,"John",'A');
 		 stu.show();
 		
 	}
