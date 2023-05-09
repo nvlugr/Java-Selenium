@@ -4,7 +4,7 @@ package accessModifiers;
 //Private variables and methods only accessible in the class
 //If nothing specified it is default: we can access them within the package
 //Protected: we can access them with inheritance in other packages
-//Public: we can access them everywhere without inheritance
+//Public: we can access them everywhere without inheritance.
 
 
 public class AccessModifiers {

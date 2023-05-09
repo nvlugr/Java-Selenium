@@ -2,7 +2,7 @@ package accessModifiers;
 
 public class Test {
 	
-	 int x=100;
+	 int x=1000;
 	
 	 void m1()
 	{
