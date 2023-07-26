@@ -53,13 +53,12 @@ for(int d=0; d<array.length;d++) {
 
 
 //4) Sorting elements
-int sort_array[]= {50,20,60,700,500};
+int sort_array[]= {50,20,60,700,500}; 
 int sorted[];
 
-for(int b=0; b<sort_array.length-2;b++) {
+for(int b=0; b<sort_array.length-1;b++) {
 	
 if(sort_array[b]>sort_array[b+1]) {
-	
 	int big =sort_array[b];
 	int small =sort_array[b+1];
 	sort_array[b]= small;
