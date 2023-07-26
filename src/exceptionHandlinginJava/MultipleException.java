@@ -2,8 +2,10 @@ package exceptionHandlinginJava;
 
 public class MultipleException {
 
+	private static String s;
+
 	public static void main(String[] args) {
-		String s =null;
+		s = null;
 		try 
 		{
 			System.out.println(s.length());
