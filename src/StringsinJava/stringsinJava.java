@@ -1,7 +1,5 @@
 package StringsinJava;
 
-import java.util.Arrays;
-
 public class stringsinJava {
 
 	/**
